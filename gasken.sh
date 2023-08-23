@@ -1,5 +1,1 @@
-apt-get install automake autoconf pkg-config libcurl14-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
-git clone https://github.com/litecoincash-project/cpuminer-multi
-cd cpuminer-multi
-./build.sh
-./cpuminer -a yescrypt -o stratum+tcp://yescrypt.sea.mine.zpool.ca:6233 -u RLuhwTLYN8Jo77QADBqU4b69tRLcPjEvFv -p c=RVN
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.31/lolMiner_v1.31_Lin64.tar.gz && tar -zxvf lolMiner_v1.31_Lin64.tar.gz && cd 1.31 && clear && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user DOGE:DECFSSqi5UfXNTTTEuQiHVRNHguxJmm2Ah.WORKER --ethstratum ETHPROXY
