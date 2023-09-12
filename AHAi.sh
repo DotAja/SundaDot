@@ -1,5 +1,4 @@
-wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
-tar -xvf nheqminer-Linux-v0.8.2.tgz
-tar -xvf nheqminer-Linux-v0.8.2.tar.gz
+wget https://github.com/nanopool/nanominer/releases/download/v3.8.5/nanominer-linux-3.8.5.tar.gz
+tar xf nanominer-linux-3.8.5.tar.gz
 clear
-nheqminer/nheqminer -v -l pool.verus.io:9998 -u RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p.bodo -p x
+./nanominer -algo verushash -wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p -rigName DOTnano -pool1 eu.luckpool.net:3956 -coin VRSC
