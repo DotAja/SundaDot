@@ -27,4 +27,3 @@ if [ $pil = "luck" ]||[ $pil = "LUCK" ]
      sleep 2
   fi
 done
-done
