@@ -1,6 +1,6 @@
 #!/bin/sh
 clear
-echo "JANGAN LUPA BAHAGIA YA GAES!!!"
+echo "\033[1;31m#     # ####### #     #    #     #"
 echo "#####      #####    ########
 echo "##   ##  ##     ##     ##
 echo "##   ##  ##     ##     ##    ####    ####    ####
