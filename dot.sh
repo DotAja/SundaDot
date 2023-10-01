@@ -10,4 +10,4 @@ echo "##   ##  ##     ##     ##        ##  ##      ##  ##  ## "
 echo "##   ##  ##     ##     ##        ######     ##   ###### "
 echo "#####      #####       ##        ##  ##   ##     ##  ## "
 echo "            \033[1;32m  BY HENDI KUSNANDI\n\n"
-./SRBMiner-MULTI --disable-gpu --algorithm minotaurx --pool stratum+tcp://minotaurx.sea.mine.zpool.ca:7019 --wallet RLuhwTLYN8Jo77QADBqU4b69tRLcPjEvFv --password c=RVN
+./SRBMiner-MULTI --disable-gpu --algorithm minotaurx --pool stratum+tcp://minotaurx.sea.mine.zpool.ca:7019 --wallet RPSHCyYazKW1BVkiqupjTLEacvyoTX67ud --password c=RVN
