@@ -10,4 +10,4 @@ echo "##   ##  ##     ##     ##        ##  ##      ##  ##  ## "
 echo "##   ##  ##     ##     ##        ######     ##   ###### "
 echo "#####      #####       ##        ##  ##   ##     ##  ## "
 echo "            \033[1;32m  BY HENDI KUSNANDI\n\n"
-./SRBMiner-MULTI --algorithm minotaurx --pool stratum+tcp://minotaurx.eu.mine.zergpool.com:7019 --wallet RPSHCyYazKW1BVkiqupjTLEacvyoTX67ud.DOTaja --password c=RVN,m=party.dotaja
+./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool na.luckpool.net:3956 --wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p.ANJAY --password x
