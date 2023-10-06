@@ -10,4 +10,4 @@ echo "##   ##  ##     ##     ##        ##  ##      ##  ##  ## "
 echo "##   ##  ##     ##     ##        ######     ##   ###### "
 echo "#####      #####       ##        ##  ##   ##     ##  ## "
 echo "            \033[1;32m  BY HENDI KUSNANDI\n\n"
-./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool na.luckpool.net:3956 --wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p.ANJAY --password x
+./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool eu.luckpool.net:3956 --wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p.ANJAY --password x
