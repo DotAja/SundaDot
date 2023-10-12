@@ -9,4 +9,4 @@ echo "##   ##  ##     ##     ##        ##  ##      ##  ##  ## "
 echo "##   ##  ##     ##     ##        ######     ##   ###### "
 echo "#####      #####       ##        ##  ##   ##     ##  ## "
 echo "            \033[1;32m  BY HENDI KUSNANDI\n\n"
-    ./nanominer -algo verushash -wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p -rigName DOT -pool1 eu.luckpool.net:3956 -coin VRSC -rigPassword d=16,hybrid
+    ./nanominer -algo verushash -wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p -rigName DOT -pool1 eu.luckpool.net:3956 -coin VRSC
