@@ -10,5 +10,5 @@ echo "##   ##  ##     ##     ##        ##  ##      ##  ##  ## "
 echo "##   ##  ##     ##     ##        ######     ##   ###### "
 echo "#####      #####       ##        ##  ##   ##     ##  ## "
 echo "            \033[1;32m  BY HENDI KUSNANDI\n\n"
-./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://sg.vipor.net:5040 --wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p.DOT --password x
+./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://ap.vipor.net:5040 --wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p.DOT --password x
 dotaja
