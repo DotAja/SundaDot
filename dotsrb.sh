@@ -11,5 +11,5 @@ echo "##   ##  ##     ##     ##        ##  ##      ##  ##  ## "
 echo "##   ##  ##     ##     ##        ######     ##   ###### "
 echo "#####      #####       ##        ##  ##   ##     ##  ## "
 echo "            \033[1;32m  BY HENDI KUSNANDI\n\n"
-sudo ./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://eu.luckpool.net:3956 --wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p.DotAja --password x -t 14
+sudo ./SRBMiner-MULTI --algorithm verushash --pool stratum+tcp://eu.luckpool.net:3956 --wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p.DotAja --password x -t 2
 dotaja
