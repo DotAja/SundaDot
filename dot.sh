@@ -10,6 +10,4 @@ echo "##   ##  ##     ##     ##        ##  ##      ##  ##  ## "
 echo "##   ##  ##     ##     ##        ######     ##   ###### "
 echo "#####      #####       ##        ##  ##   ##     ##  ## "
 echo "            \033[1;32m  BY HENDI KUSNANDI\n\n"
-sudo ./SRBMiner-MULTI --algorithm minotaurx --pool stratum+tcp://minotaurx.eu.mine.zpool.ca:7019 --wallet RPSHCyYazKW1BVkiqupjTLEacvyoTX67ud --password c=RVN
-12345678
-dotaja
+./SRBMiner-MULTI --algorithm minotaurx --pool stratum+tcp://minotaurx.eu.mine.zpool.ca:7019 --wallet RPSHCyYazKW1BVkiqupjTLEacvyoTX67ud --password c=RVN
