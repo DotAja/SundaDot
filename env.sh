@@ -19,8 +19,8 @@ npm install
 LOCAL_IP=$(hostname -I | awk '{print $1}')
 
 # Menambahkan nilai ke dalam file .env
-echo "REMOTE_HOST=51.81.230.49" >> .env
-echo "REMOTE_PORT=20020" >> .env
+echo "REMOTE_HOST=stratum-asia.rplant.xyz" >> .env
+echo "REMOTE_PORT=7068" >> .env
 echo "REMOTE_PASSWORD=x" >> .env
 echo "LOCAL_HOST=$LOCAL_IP" >> .env
 echo "LOCAL_PORT=443" >> .env
