@@ -7,7 +7,7 @@ clear
     echo -e "\e[31mBY DOT AJA\e[0m"
     read -p "POOL HOST: " remote_host
     read -p "POOL PORT: " remote_port
-    read -p "LOCAL PORT: " LOCAL_IP
+    read -p "LOCAL PORT: " LOCAL_PORT
 }
 
 # Perbarui repositori paket
@@ -43,6 +43,6 @@ sudo screen -dmS stratumeth npm start
 
 # Tampilkan sesi screen yang telah dibuat
 clear
-echo "\e[34mPOINTING HOST POOL\e[0m"
-echo "\e[31mBY DOT AJA\e[0m"
+echo -e "\e[34mPOINTING HOST POOL\e[0m"
+echo -e "\e[31mBY DOT AJA\e[0m"
 echo -e "\e[32m$LOCAL_IP:$LOCAL_PORT\e[0m"
