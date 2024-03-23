@@ -2,8 +2,11 @@
 
 # Fungsi untuk meminta input dari pengguna
 input_remote_info() {
-    read -p "Masukkan remote host: " remote_host
-    read -p "Masukkan remote port: " remote_port
+clear
+    echo "POINTING HOST POOL"
+    echo "BY DOT AJA"
+    read -p "POOL HOST: " remote_host
+    read -p "POOL PORT: " remote_port
 }
 
 # Perbarui repositori paket
@@ -38,4 +41,6 @@ echo "LOCAL_PORT=443" >> .env
 sudo screen -dmS stratumeth npm start
 
 # Tampilkan sesi screen yang telah dibuat
-sudo screen -r
+echo "SCRIPT BY DOT AJA"
+echo "copy ke stratum nya"
+echo "$remote_host:$remote_port"
