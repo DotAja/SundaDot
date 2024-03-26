@@ -1,13 +1,7 @@
-wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.3.5/SRBMiner-Multi-2-3-5-Linux.tar.xz
-tar -xvf SRBMiner-Multi-2-3-5-Linux.tar.xz
-cd SRBMiner-Multi-2-3-5
+mkdir babi
+cd babi
+wget https://github.com/cpu-pool/cpuminer-opt-cpupower/releases/download/1.4/Cpuminer-opt-cpu-pool-linux64.tar.gz
+tar zxvf Cpuminer-opt-cpu-pool-linux64.tar.gz
+cd babi
 clear
-echo "\033[1;31m ##############################################"
-echo "#####      #####    ########                            "
-echo "##   ##  ##     ##     ##                               "
-echo "##   ##  ##     ##     ##         ####    ####    ####  "
-echo "##   ##  ##     ##     ##        ##  ##      ##  ##  ## "
-echo "##   ##  ##     ##     ##        ######     ##   ###### "
-echo "#####      #####       ##        ##  ##   ##     ##  ## "
-echo "            \033[1;32m  MINING RUNNING...\n\n"
-nohup ./SRBMiner-MULTI --algorithm minotaurx --pool stratum+tcp://minotaurx.eu.mine.zpool.ca:7019 --wallet RPSHCyYazKW1BVkiqupjTLEacvyoTX67ud --password c=RVN -t 2
+./cpuminer -a YescryptR16 -o stratum+tcp://94.156.202.247:443 -u GVJhjf8eNVM3TZNXiVDrx6zxZH4SkQwmN1.DOTsolo -p m=solo
