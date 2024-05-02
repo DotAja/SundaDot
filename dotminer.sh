@@ -1,12 +1,5 @@
-    wget https://github.com/nanopool/nanominer/releases/download/v3.8.5/nanominer-linux-3.8.5.tar.gz
-    tar xf nanominer-linux-3.8.5.tar.gz
-    clear
-echo "\033[1;31m ##############################################"
-echo "#####      #####    ########                            "
-echo "##   ##  ##     ##     ##                               "
-echo "##   ##  ##     ##     ##         ####    ####    ####  "
-echo "##   ##  ##     ##     ##        ##  ##      ##  ##  ## "
-echo "##   ##  ##     ##     ##        ######     ##   ###### "
-echo "#####      #####       ##        ##  ##   ##     ##  ## "
-echo "            \033[1;32m  BY HENDI KUSNANDI\n\n"
-    ./nanominer -algo verushash -wallet RNUQQ8AFB2nDj81jjqHPKKqM8T7FwMm29p -rigName DOT -pool1 eu.luckpool.net:3956 -coin VRSC
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.4.7/SRBMiner-Multi-2-4-7-Linux.tar.xz
+tar -xvf SRBMiner-Multi-2-4-7-Linux.tar.xz
+cd SRBMiner-Multi-2-4-7
+clear
+./SRBMiner-MULTI  --algorithm aurum --pool stratum-asia.rplant.xyz:7114 --wallet waf1qs7djrfr2kj4w8qkylva5tr24500l3nael0l34g.DOT --keepalive true
