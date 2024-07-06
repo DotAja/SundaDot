@@ -2,13 +2,6 @@
 
 input_remote_info() {
 clear
-echo -e "\e[93m########   #######  ########       ###          ##    ###\e[0m"  
-echo -e "\e[93m##     ## ##     ##    ##         ## ##         ##   ## ##\e[0m"   
-echo -e "\e[93m##     ## ##     ##    ##        ##   ##        ##  ##   ##\e[0m"  
-echo -e "\e[93m##     ## ##     ##    ##       ##     ##       ## ##     ##\e[0m"
-echo -e "\e[93m##     ## ##     ##    ##       ######### ##    ## #########\e[0m"
-echo -e "\e[93m##     ## ##     ##    ##       ##     ## ##    ## ##     ##\e[0m"
-echo -e "\e[93m########   #######     ##       ##     ##  ######  ##     ##\e[0m"
 read -p "POOL HOST: " remote_host
 read -p "POOL PORT: " remote_port
 read -p "LOCAL PORT: " LOCAL_PORT
@@ -27,11 +20,4 @@ echo "LOCAL_HOST=$LOCAL_IP" >> .env
 echo "LOCAL_PORT=$LOCAL_PORT" >> .env
 sudo screen -dmS stratumeth npm start
 clear
-echo -e "\e[93m########   #######  ########       ###          ##    ###\e[0m"  
-echo -e "\e[93m##     ## ##     ##    ##         ## ##         ##   ## ##\e[0m"   
-echo -e "\e[93m##     ## ##     ##    ##        ##   ##        ##  ##   ##\e[0m"  
-echo -e "\e[93m##     ## ##     ##    ##       ##     ##       ## ##     ##\e[0m"
-echo -e "\e[93m##     ## ##     ##    ##       ######### ##    ## #########\e[0m"
-echo -e "\e[93m##     ## ##     ##    ##       ##     ## ##    ## ##     ##\e[0m"
-echo -e "\e[93m########   #######     ##       ##     ##  ######  ##     ##\e[0m"
 echo -e "\e[32m$LOCAL_IP:$LOCAL_PORT\e[0m"
